@@ -41,9 +41,9 @@ Each phase is an evidence gate: passing checks and human review are required bef
 
 - [x] Gate GitHub Pages publication on all quality checks.
 - [x] Confirm repository availability and GitHub authentication.
-- [ ] Review the public diff and curate content before pushing.
-- [ ] Verify the live site, assets, catalog, one search path, and external links.
-- [ ] Update README, project instructions, and release evidence after verification.
+- [x] Review the public diff and curate content before pushing.
+- [x] Verify the live site, assets, catalog, one search path, and external links.
+- [x] Update README, project instructions, and release evidence after verification.
 
 ## Parking lot
 

@@ -79,3 +79,7 @@ layout, safe text rendering, and resource-text contrast. Desktop/mobile screensh
 and provider-link checks are recorded in the development session, outside the Pages
 artifact. A human editorial and assistive-technology review is still recommended;
 automated checks are not a substitute for either.
+
+The launch checks include six catalog tests and sixteen Chromium browser tests,
+including doubled text size. The deployed HTML, styles, modules, and catalog were
+verified under the real project URL, and the live catalog matched the local file.
