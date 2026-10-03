@@ -737,11 +737,15 @@ main:has(.topic-title) h1 {
     padding-inline: 0.8rem;
   }
 
+  .topic-choices {
+    padding-block: 1rem;
+  }
+
   .topic-card {
     display: grid;
     grid-template-columns: 1.4rem minmax(0, 1fr);
-    gap: 0.25rem;
-    padding: 0.65rem 0;
+    gap: 0.15rem;
+    padding: 0.55rem 0;
     border-inline-start: 0;
     border-bottom: 1px solid var(--line);
   }
@@ -775,6 +779,7 @@ main:has(.topic-title) h1 {
     align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+    gap: 0.5rem;
     padding-block: 1rem;
   }
 }
