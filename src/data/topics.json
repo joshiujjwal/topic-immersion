@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "sales",
+    "title": "Sales",
+    "aliases": ["selling", "sales skills"],
+    "summary": "Understand how people discover needs, exchange value, and make buying decisions.",
+    "overview": "At its simplest, a sale is an agreement to exchange something of value. Good selling is not a bag of pressure tricks: it is a process of understanding a person's situation, checking whether an offer can help, explaining the trade-offs honestly, and agreeing on a useful next step. The buyer and seller have different information and incentives, so trust and clear questions matter.",
+    "concepts": [
+      "Buyer need and context",
+      "Value and alternatives",
+      "Qualification and fit",
+      "Questions and listening",
+      "Objections as missing information",
+      "Ethics and trust"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Sales",
+        "url": "https://en.wikipedia.org/wiki/Sales"
+      },
+      {
+        "title": "HubSpot: Sales process",
+        "url": "https://blog.hubspot.com/sales/sales-process"
+      },
+      {
+        "title": "Salesforce: Sales process",
+        "url": "https://www.salesforce.com/resources/articles/sales-process/"
+      }
+    ],
+    "startHere": [
+      {
+        "resourceId": "sales-foundation-hubspot",
+        "reason": "Get a plain-language map of the stages before learning any individual technique."
+      },
+      {
+        "resourceId": "sales-book-spin",
+        "reason": "Study how structured questions uncover a customer's situation and priorities."
+      },
+      {
+        "resourceId": "sales-course-inbound",
+        "reason": "Practice a buyer-centered process and compare it with the ideas above."
+      }
+    ],
+    "sections": [
+      {
+        "id": "foundations",
+        "resources": [
+          {
+            "id": "sales-foundation-wikipedia",
+            "title": "Sales",
+            "url": "https://en.wikipedia.org/wiki/Sales",
+            "source": "Wikipedia",
+            "why": "A broad orientation to selling, sales roles, and the exchange behind a transaction.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-foundation-hubspot",
+            "title": "The sales process: a practical guide",
+            "url": "https://blog.hubspot.com/sales/sales-process",
+            "source": "HubSpot",
+            "why": "Introduces the stages of a sales process in approachable language.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-foundation-salesforce",
+            "title": "What is a sales process?",
+            "url": "https://www.salesforce.com/resources/articles/sales-process/",
+            "source": "Salesforce",
+            "why": "A second practical framing helps distinguish a repeatable process from a single pitch.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "resources": [
+          {
+            "id": "sales-book-spin",
+            "title": "SPIN Selling",
+            "url": "https://www.mheducation.com/highered/mhp/product/spin-selling.html?viewOption=student",
+            "source": "Neil Rackham / McGraw Hill",
+            "why": "A research-based framework for asking questions in complex, consultative sales.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-book-carnegie",
+            "title": "How to Win Friends and Influence People",
+            "url": "https://www.simonandschuster.com/books/How-to-Win-Friends-and-Influence-People/Dale-Carnegie/9780671027032",
+            "source": "Dale Carnegie / Simon & Schuster",
+            "why": "A classic on listening and interpersonal relationships; treat its advice critically rather than as a script.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-book-challenger",
+            "title": "The Challenger Sale",
+            "url": "https://www.penguinrandomhouse.com/books/309666/the-challenger-sale-by-matthew-dixon/",
+            "source": "Matthew Dixon and Brent Adamson / Penguin Random House",
+            "why": "Presents a debated model of teaching buyers something useful in complex sales.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "youtube",
+        "resources": [
+          {
+            "id": "sales-video-brian-tracy",
+            "title": "Brian Tracy: sales and selling videos",
+            "url": "https://www.youtube.com/user/BrianTracySpeaker",
+            "source": "Brian Tracy on YouTube",
+            "why": "A large collection of concise practical lessons; evaluate advice against the buyer's interests.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-video-sales-influence",
+            "title": "Sales Influence",
+            "url": "https://www.youtube.com/user/salesinfluence",
+            "source": "Victor Antonio on YouTube",
+            "why": "Role-play and breakdown formats make sales conversations easier to observe.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-video-hubspot",
+            "title": "HubSpot: customer acquisition and marketing",
+            "url": "https://www.youtube.com/user/HubSpot",
+            "source": "HubSpot Marketing on YouTube",
+            "why": "A companion to selling: learn how marketing attracts and qualifies customers before a sales conversation.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "podcasts",
+        "resources": [
+          {
+            "id": "sales-podcast-salesgravy",
+            "title": "Sales Gravy Podcast",
+            "url": "https://salesgravy.com/podcast/",
+            "source": "Sales Gravy",
+            "why": "Interviews and practical discussions focused on prospecting and selling.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-podcast-30mpc",
+            "title": "30 Minutes to President's Club",
+            "url": "https://www.30mpc.com/podcast",
+            "source": "30MPC",
+            "why": "Short, tactic-oriented interviews expose listeners to working sales practitioners.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-podcast-ziglar",
+            "title": "The Ziglar Show",
+            "url": "https://www.ziglar.com/ziglar-show/",
+            "source": "Ziglar",
+            "why": "A useful window into the motivational tradition of selling; balance it with evidence and ethics.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "open-lectures",
+        "resources": [],
+        "omissionReason": "No three stable, open university lecture series focused specifically on sales fundamentals met the direct-link and topic-fit standard; structured courses are listed separately."
+      },
+      {
+        "id": "courses",
+        "resources": [
+          {
+            "id": "sales-course-inbound",
+            "title": "Inbound Sales Certification",
+            "url": "https://academy.hubspot.com/courses/inbound-sales",
+            "source": "HubSpot Academy",
+            "why": "A structured course for learning a consultative, buyer-centered sales process.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-course-trailhead",
+            "title": "Sales Process Basics",
+            "url": "https://trailhead.salesforce.com/content/learn/modules/build-a-sales-process",
+            "source": "Salesforce Trailhead",
+            "why": "A guided introduction to organizing customer opportunities in a sales process.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-course-coursera",
+            "title": "Introduction to Sales: Foundations for Success",
+            "url": "https://www.coursera.org/learn/introduction-to-sales-foundations-for-success",
+            "source": "IBM / Coursera",
+            "why": "A structured introduction to sales roles and foundational practices; check current enrollment terms.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "blogs",
+        "resources": [
+          {
+            "id": "sales-blog-iannarino",
+            "title": "The Sales Blog",
+            "url": "https://www.thesalesblog.com/",
+            "source": "Anthony Iannarino",
+            "why": "Practitioner essays connect sales habits, strategy, and customer conversations.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-blog-gong",
+            "title": "Gong Labs",
+            "url": "https://www.gong.io/blog/",
+            "source": "Gong",
+            "why": "Sales conversation analysis offers hypotheses to inspect; remember observational data is not proof of causation.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-blog-hubspot",
+            "title": "HubSpot Sales Blog",
+            "url": "https://blog.hubspot.com/sales",
+            "source": "HubSpot",
+            "why": "A broad collection of sales explainers and process guidance for newer practitioners.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "creators",
+        "resources": [
+          {
+            "id": "sales-creator-jebblount",
+            "title": "Jeb Blount",
+            "url": "https://jebblount.com/",
+            "source": "Jeb Blount",
+            "why": "Author and trainer whose work focuses on prospecting and sales behavior.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-creator-jillkonrath",
+            "title": "Jill Konrath",
+            "url": "https://jillkonrath.com/",
+            "source": "Jill Konrath",
+            "why": "Sales author and speaker known for practical guidance on modern buyers.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-creator-chrisvoss",
+            "title": "Chris Voss",
+            "url": "https://www.blackswanltd.com/chris-voss",
+            "source": "The Black Swan Group",
+            "why": "Negotiation lessons can sharpen listening and question design; negotiation is not a substitute for product fit.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "communities",
+        "resources": [
+          {
+            "id": "sales-community-reddit",
+            "title": "r/sales",
+            "url": "https://www.reddit.com/r/sales/",
+            "source": "Reddit",
+            "why": "A peer forum for questions about sales roles and practice; treat anecdotal advice as anecdotal.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-community-salesops",
+            "title": "r/salesops",
+            "url": "https://www.reddit.com/r/salesops/",
+            "source": "Reddit",
+            "why": "Discusses the systems and operations surrounding sales work.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-community-pavilion",
+            "title": "Pavilion community",
+            "url": "https://www.joinpavilion.com/",
+            "source": "Pavilion",
+            "why": "A professional revenue community for peer discussion; membership details may change.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "screen",
+        "resources": [
+          {
+            "id": "sales-screen-glengarry",
+            "title": "Glengarry Glen Ross",
+            "url": "https://www.imdb.com/title/tt0104348/",
+            "source": "IMDb",
+            "why": "A fictional, deliberately high-pressure sales office; useful for discussing coercion, incentives, and what not to normalize.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-screen-boilerroom",
+            "title": "Boiler Room",
+            "url": "https://www.imdb.com/title/tt0181984/",
+            "source": "IMDb",
+            "why": "A fictional brokerage story that invites discussion of fraud and sales incentives, not a sales manual.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "sales-screen-madmen",
+            "title": "Mad Men",
+            "url": "https://www.imdb.com/title/tt0804503/",
+            "source": "IMDb",
+            "why": "A dramatized advertising agency provides context for persuasion, client relationships, and changing norms.",
+            "verified": "2026-10-03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business-strategy",
+    "title": "Business Strategy",
+    "aliases": ["strategy", "business strategy"],
+    "summary": "Learn how organizations choose where to compete and how to create a durable advantage.",
+    "overview": "Strategy is a connected set of choices about a goal, the arena in which to pursue it, and the way to succeed there. It is not simply ambition, a budget, or a list of activities. A useful strategy makes trade-offs: it says what an organization will do, what it will not do, and why those choices can work together under real constraints.",
+    "concepts": [
+      "Diagnosis",
+      "Competitive advantage",
+      "Positioning and trade-offs",
+      "Capabilities",
+      "Industry structure",
+      "Execution and adaptation"
+    ],
+    "sources": [
+      {
+        "title": "OpenStax: Principles of Management",
+        "url": "https://openstax.org/details/books/principles-management"
+      },
+      {
+        "title": "MIT OpenCourseWare: Strategic Management",
+        "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/"
+      },
+      {
+        "title": "UVA Darden: Foundations of Business Strategy",
+        "url": "https://www.coursera.org/learn/uva-darden-strategy101"
+      }
+    ],
+    "startHere": [
+      {
+        "resourceId": "strategy-foundation-openstax",
+        "reason": "Get a broad management map before narrowing to strategic choices."
+      },
+      {
+        "resourceId": "strategy-book-goodstrategy",
+        "reason": "Learn to distinguish a coherent strategy from goals and slogans."
+      },
+      {
+        "resourceId": "strategy-course-uva",
+        "reason": "Apply a set of structured analytical frameworks to a business situation."
+      }
+    ],
+    "sections": [
+      {
+        "id": "foundations",
+        "resources": [
+          {
+            "id": "strategy-foundation-openstax",
+            "title": "Principles of Management: Planning and Strategy",
+            "url": "https://openstax.org/details/books/principles-management",
+            "source": "OpenStax",
+            "why": "An openly available textbook situates strategic planning within the broader work of management.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-foundation-hbr",
+            "title": "The Five Competitive Forces That Shape Strategy",
+            "url": "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy",
+            "source": "Harvard Business Review",
+            "why": "Michael Porter explains how industry structure shapes a firm's competitive choices.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-foundation-wikipedia",
+            "title": "Strategic management",
+            "url": "https://en.wikipedia.org/wiki/Strategic_management",
+            "source": "Wikipedia",
+            "why": "A quick orientation to the field and its vocabulary; follow its references for deeper study.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "resources": [
+          {
+            "id": "strategy-book-porter",
+            "title": "Competitive Strategy",
+            "url": "https://www.simonandschuster.com/books/Competitive-Strategy/Michael-E-Porter/9780684841489",
+            "source": "Michael E. Porter / Simon & Schuster",
+            "why": "A foundational account of industry structure and competitive positioning.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-book-goodstrategy",
+            "title": "Good Strategy/Bad Strategy",
+            "url": "https://www.penguinrandomhouse.com/books/208668/good-strategy-bad-strategy-by-richard-rumelt/",
+            "source": "Richard Rumelt / Penguin Random House",
+            "why": "Explains diagnosis, guiding policy, and coherent action as the core of strategy.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-book-playingtowin",
+            "title": "Playing to Win",
+            "url": "https://hbsp.harvard.edu/product/10852-PDF-ENG",
+            "source": "A.G. Lafley and Roger L. Martin / Harvard Business Review Press",
+            "why": "A practical choice cascade helps connect where to play with how to win.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "youtube",
+        "resources": [
+          {
+            "id": "strategy-video-hbr",
+            "title": "Harvard Business Review video library",
+            "url": "https://www.youtube.com/@HarvardBusinessReview",
+            "source": "Harvard Business Review on YouTube",
+            "why": "Interviews and explainers introduce management and competitive strategy perspectives.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-video-mit",
+            "title": "MIT Sloan School of Management",
+            "url": "https://www.youtube.com/@mitsloan",
+            "source": "MIT Sloan on YouTube",
+            "why": "Research and practitioner talks connect strategy concepts to organizational decisions.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-video-stanford",
+            "title": "Stanford Graduate School of Business",
+            "url": "https://www.youtube.com/@stanfordgsb",
+            "source": "Stanford GSB on YouTube",
+            "why": "Faculty and case discussions offer examples of strategic choices and competition.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "podcasts",
+        "resources": [
+          {
+            "id": "strategy-podcast-ideacast",
+            "title": "HBR IdeaCast",
+            "url": "https://hbr.org/2018/01/podcast-ideacast",
+            "source": "Harvard Business Review",
+            "why": "Interviews cover management and strategy questions from multiple disciplines.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-podcast-mckinsey",
+            "title": "Inside the Strategy Room",
+            "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights/inside-the-strategy-room-podcast",
+            "source": "McKinsey & Company",
+            "why": "Consultants and guests discuss current strategic challenges; consider the firm's advisory perspective.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-podcast-outthinkers",
+            "title": "Outthinkers",
+            "url": "https://outthinker.com/podcast/",
+            "source": "Outthinker",
+            "why": "Conversations with business leaders explore how organizations adapt and compete.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "open-lectures",
+        "resources": [
+          {
+            "id": "strategy-lecture-mit",
+            "title": "MIT OCW Strategic Management I",
+            "url": "https://ocw.mit.edu/courses/15-902-strategic-management-i-fall-2006/",
+            "source": "MIT OpenCourseWare",
+            "why": "Open course materials provide a structured academic route through strategic management.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-lecture-newventures",
+            "title": "New Enterprises",
+            "url": "https://ocw.mit.edu/courses/15-390-new-enterprises-spring-2013/",
+            "source": "MIT OpenCourseWare",
+            "why": "An open entrepreneurship course illustrates strategy choices in the context of starting a venture.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-lecture-ecorner",
+            "title": "Stanford eCorner: Strategy talks",
+            "url": "https://ecorner.stanford.edu/",
+            "source": "Stanford University",
+            "why": "A free collection of founder and faculty talks supplies real-world strategic examples.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "courses",
+        "resources": [
+          {
+            "id": "strategy-course-uva",
+            "title": "Foundations of Business Strategy",
+            "url": "https://www.coursera.org/learn/uva-darden-strategy101",
+            "source": "UVA Darden / Coursera",
+            "why": "A structured introductory course on analyzing a firm's competitive position.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-course-wharton",
+            "title": "Strategic Management",
+            "url": "https://www.coursera.org/learn/strategic-management",
+            "source": "Coursera",
+            "why": "A university-level introduction explores how strategy formulation and implementation adapt to changing industries.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-course-hbs",
+            "title": "Business Strategy",
+            "url": "https://online.hbs.edu/courses/business-strategy/",
+            "source": "Harvard Business School Online",
+            "why": "An instructor-led course develops tools for analyzing a firm's competitive position; check current enrollment details.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "blogs",
+        "resources": [
+          {
+            "id": "strategy-blog-roger",
+            "title": "Roger Martin's strategy writing",
+            "url": "https://rogerlmartin.com/thought-pillars",
+            "source": "Roger L. Martin",
+            "why": "Essays explain strategic choice and integrative thinking from an academic and practitioner perspective.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-blog-ritamcgrath",
+            "title": "Rita McGrath: strategy and innovation",
+            "url": "https://www.ritamcgrath.com/",
+            "source": "Rita McGrath",
+            "why": "Research and writing examine transient advantage and strategy under uncertainty.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-blog-mckinsey",
+            "title": "Strategy and corporate finance insights",
+            "url": "https://www.mckinsey.com/capabilities/strategy-and-corporate-finance/our-insights",
+            "source": "McKinsey & Company",
+            "why": "A current practitioner perspective useful for examples, with the firm's point of view in mind.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "creators",
+        "resources": [
+          {
+            "id": "strategy-creator-martin",
+            "title": "Roger L. Martin",
+            "url": "https://rogerlmartin.com/",
+            "source": "Roger L. Martin",
+            "why": "Scholar and former business leader whose work focuses on strategic choice and design.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-creator-osterwalder",
+            "title": "Alexander Osterwalder",
+            "url": "https://www.strategyzer.com/",
+            "source": "Strategyzer",
+            "why": "Entrepreneur and author whose work makes business-model design and strategic choices tangible.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-creator-porter",
+            "title": "Institute for Strategy and Competitiveness",
+            "url": "https://www.isc.hbs.edu/",
+            "source": "Harvard Business School",
+            "why": "Michael Porter's institute shares research and frameworks on competition and economic development.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "communities",
+        "resources": [
+          {
+            "id": "strategy-community-business",
+            "title": "r/business",
+            "url": "https://www.reddit.com/r/business/",
+            "source": "Reddit",
+            "why": "Business news and discussion provide cases for thinking about industries and competition; posts are not vetted instruction.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-community-consulting",
+            "title": "r/consulting",
+            "url": "https://www.reddit.com/r/consulting/",
+            "source": "Reddit",
+            "why": "Practitioners discuss consulting work and strategy cases from a career perspective.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-community-entrepreneur",
+            "title": "r/Entrepreneur",
+            "url": "https://www.reddit.com/r/Entrepreneur/",
+            "source": "Reddit",
+            "why": "Founders discuss business choices, customers, and experiments; treat success stories and advice as unverified anecdotes.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "screen",
+        "resources": [
+          {
+            "id": "strategy-screen-moneyball",
+            "title": "Moneyball",
+            "url": "https://www.imdb.com/title/tt1210166/",
+            "source": "IMDb",
+            "why": "A dramatized case of resource constraints, new measures, and organizational resistance, not a business textbook.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-screen-socialnetwork",
+            "title": "The Social Network",
+            "url": "https://www.imdb.com/title/tt1285016/",
+            "source": "IMDb",
+            "why": "A fictionalized company origin story for discussing scale, competition, and governance.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "strategy-screen-founder",
+            "title": "The Founder",
+            "url": "https://www.imdb.com/title/tt4276820/",
+            "source": "IMDb",
+            "why": "A dramatization of franchising and expansion that raises questions about control and value capture.",
+            "verified": "2026-10-03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "large-language-models",
+    "title": "Large Language Models",
+    "aliases": [
+      "LLM",
+      "LLMs",
+      "large language model",
+      "generative language models"
+    ],
+    "summary": "Understand how language models learn patterns from text and generate likely continuations.",
+    "overview": "A large language model is a neural network trained to predict tokens from context. Repeated prediction over enormous datasets lets a model learn useful linguistic and statistical patterns, but it does not guarantee truth, grounding, or human-like understanding. Transformers provide a widely used architecture for processing context; training, data, inference, evaluation, and human interaction all shape the resulting system.",
+    "concepts": [
+      "Tokens and tokenization",
+      "Next-token prediction",
+      "Transformer and attention",
+      "Pretraining and adaptation",
+      "Sampling and inference",
+      "Evaluation, limitations, and safety"
+    ],
+    "sources": [
+      {
+        "title": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762"
+      },
+      {
+        "title": "Stanford CS324: Large Language Models",
+        "url": "https://stanford-cs324.github.io/"
+      },
+      {
+        "title": "Google: Introduction to large language models",
+        "url": "https://developers.google.com/machine-learning/crash-course/llm"
+      }
+    ],
+    "startHere": [
+      {
+        "resourceId": "llm-foundation-google",
+        "reason": "Build a concise vocabulary before approaching architecture and research papers."
+      },
+      {
+        "resourceId": "llm-video-karpathy",
+        "reason": "Watch the next-token idea become a concrete language-model explanation."
+      },
+      {
+        "resourceId": "llm-course-generative",
+        "reason": "Follow a structured course that connects model foundations to the training lifecycle."
+      }
+    ],
+    "sections": [
+      {
+        "id": "foundations",
+        "resources": [
+          {
+            "id": "llm-foundation-wikipedia",
+            "title": "Large language model",
+            "url": "https://en.wikipedia.org/wiki/Large_language_model",
+            "source": "Wikipedia",
+            "why": "A broad glossary-style introduction with references to research and model history.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-foundation-google",
+            "title": "Introduction to large language models",
+            "url": "https://developers.google.com/machine-learning/crash-course/llm",
+            "source": "Google for Developers",
+            "why": "A concise, accessible account of language-model prediction, context, tokens, and limitations.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-foundation-hf",
+            "title": "What are Transformers?",
+            "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+            "source": "Hugging Face",
+            "why": "Introduces the model family behind many modern language systems.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "resources": [
+          {
+            "id": "llm-book-from-scratch",
+            "title": "Build a Large Language Model (From Scratch)",
+            "url": "https://www.manning.com/books/build-a-large-language-model-from-scratch",
+            "source": "Sebastian Raschka / Manning",
+            "why": "A hands-on book builds a small language model step by step; Python and some machine-learning familiarity help.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-book-hands-on",
+            "title": "Hands-On Large Language Models",
+            "url": "https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/",
+            "source": "Jay Alammar and Maarten Grootendorst / O'Reilly",
+            "why": "An illustrated, practical book connects language-model ideas to embeddings, generation, and useful applications.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-book-slp",
+            "title": "Speech and Language Processing (draft)",
+            "url": "https://web.stanford.edu/~jurafsky/slp3/",
+            "source": "Dan Jurafsky and James H. Martin",
+            "why": "A free textbook draft builds broader NLP foundations that help put LLMs in context.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "youtube",
+        "resources": [
+          {
+            "id": "llm-video-karpathy",
+            "title": "Intro to Large Language Models",
+            "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+            "source": "Andrej Karpathy",
+            "why": "A long-form visual explanation of tokens, training, and generation from a practitioner.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-video-transformer",
+            "title": "But what is a GPT? Visual intro to transformers",
+            "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+            "source": "3Blue1Brown",
+            "why": "Visualizes the Transformer mechanics behind GPT-style models.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-video-cs25",
+            "title": "Stanford CS25: Transformers United",
+            "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM",
+            "source": "Stanford Online",
+            "why": "A lecture series explores Transformer research from multiple academic and industry viewpoints.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "podcasts",
+        "resources": [
+          {
+            "id": "llm-podcast-latentspace",
+            "title": "Latent Space",
+            "url": "https://www.latent.space/",
+            "source": "Latent Space",
+            "why": "Interviews and analysis cover the engineering and research ecosystem around language models.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-podcast-twiml",
+            "title": "The TWIML AI Podcast",
+            "url": "https://twimlai.com/",
+            "source": "TWIML",
+            "why": "Long-form interviews provide technical context on machine learning systems and applications.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-podcast-gradient",
+            "title": "The Gradient Podcast",
+            "url": "https://thegradientpub.substack.com/podcast",
+            "source": "The Gradient",
+            "why": "Researchers and practitioners discuss machine-learning ideas, including language models.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "open-lectures",
+        "resources": [
+          {
+            "id": "llm-lecture-cs324",
+            "title": "CS324: Large Language Models",
+            "url": "https://stanford-cs324.github.io/",
+            "source": "Stanford University",
+            "why": "Open lecture notes and assignments provide a rigorous, organized LLM curriculum.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-lecture-cs25",
+            "title": "CS25: Transformers United",
+            "url": "https://web.stanford.edu/class/cs25/",
+            "source": "Stanford University",
+            "why": "Talks and course material explore the Transformer architecture and its research community.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-lecture-mit",
+            "title": "Introduction to Deep Learning",
+            "url": "https://introtodeeplearning.com/",
+            "source": "MIT",
+            "why": "An open course gives neural-network foundations needed to understand language-model training.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "courses",
+        "resources": [
+          {
+            "id": "llm-course-generative",
+            "title": "Generative AI with Large Language Models",
+            "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+            "source": "DeepLearning.AI / Coursera",
+            "why": "A structured course covering the LLM lifecycle and modern generative-AI techniques.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-course-coursera-google",
+            "title": "Introduction to Large Language Models",
+            "url": "https://www.coursera.org/learn/introduction-to-large-language-models",
+            "source": "Google Cloud / Coursera",
+            "why": "A concise structured course surveys LLM fundamentals and applications.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-course-prompt-engineering",
+            "title": "ChatGPT Prompt Engineering for Developers",
+            "url": "https://www.deeplearning.ai/courses/chatgpt-prompt-eng",
+            "source": "DeepLearning.AI",
+            "why": "A practical short course explores systematic prompting through examples and notebooks; basic Python familiarity helps.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "blogs",
+        "resources": [
+          {
+            "id": "llm-blog-lilianweng",
+            "title": "LLM Powered Autonomous Agents",
+            "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+            "source": "Lilian Weng",
+            "why": "A detailed technical essay synthesizes patterns for building language-model agents.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-blog-illustrated",
+            "title": "The Illustrated Transformer",
+            "url": "https://jalammar.github.io/illustrated-transformer/",
+            "source": "Jay Alammar",
+            "why": "A visual walkthrough makes the original Transformer architecture easier to reason about.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-blog-simon",
+            "title": "Simon Willison's Weblog: LLM coverage",
+            "url": "https://simonwillison.net/tags/llms/",
+            "source": "Simon Willison",
+            "why": "Ongoing, practical commentary helps connect LLM concepts to real deployments and limitations.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "creators",
+        "resources": [
+          {
+            "id": "llm-creator-karpathy",
+            "title": "Andrej Karpathy",
+            "url": "https://www.youtube.com/@karpathy",
+            "source": "Andrej Karpathy",
+            "why": "Researcher and educator with clear explanations of neural networks and language models.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-creator-raschka",
+            "title": "Sebastian Raschka",
+            "url": "https://sebastianraschka.com/",
+            "source": "Sebastian Raschka",
+            "why": "Research and tutorials explain machine-learning foundations and modern LLM techniques.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-creator-chip",
+            "title": "Chip Huyen",
+            "url": "https://huyenchip.com/",
+            "source": "Chip Huyen",
+            "why": "Writing and teaching cover machine-learning systems, deployment, and evaluation.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "communities",
+        "resources": [
+          {
+            "id": "llm-community-hf",
+            "title": "Hugging Face community",
+            "url": "https://discuss.huggingface.co/",
+            "source": "Hugging Face",
+            "why": "A public forum for questions about open models, datasets, and machine-learning tools.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-community-local",
+            "title": "r/LocalLLaMA",
+            "url": "https://www.reddit.com/r/LocalLLaMA/",
+            "source": "Reddit",
+            "why": "A community focused on running and experimenting with local language models.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "llm-community-ml",
+            "title": "r/MachineLearning",
+            "url": "https://www.reddit.com/r/MachineLearning/",
+            "source": "Reddit",
+            "why": "A broad research community where language-model papers and discussions often appear.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "screen",
+        "resources": [],
+        "omissionReason": "Fictional screen stories do not teach the mechanics of language models reliably; this topic is better served by technical lectures and demonstrations."
+      }
+    ]
+  },
+  {
+    "id": "violin",
+    "title": "Violin",
+    "aliases": ["violin playing", "learn violin"],
+    "summary": "Build a grounded path into the instrument, its technique, practice, and musical traditions.",
+    "overview": "A violin produces sound when a stretched bow makes its strings vibrate; the bridge transfers that vibration to the hollow body, which shapes and amplifies it. The player changes pitch by placing fingers on the strings and controls tone with bow speed, pressure, and contact point. Learning the instrument combines physical coordination, listening, musical reading, and deliberate practice, ideally with feedback from a teacher.",
+    "concepts": [
+      "Instrument setup and posture",
+      "Bow hold and sound production",
+      "Pitch and intonation",
+      "Left-hand placement",
+      "Rhythm and reading",
+      "Practice and feedback"
+    ],
+    "sources": [
+      {
+        "title": "Wikipedia: Violin",
+        "url": "https://en.wikipedia.org/wiki/Violin"
+      },
+      {
+        "title": "Smithsonian: Violins and their makers",
+        "url": "https://music.si.edu/spotlight/violins"
+      },
+      {
+        "title": "Suzuki Association of the Americas",
+        "url": "https://suzukiassociation.org/"
+      }
+    ],
+    "startHere": [
+      {
+        "resourceId": "violin-foundation-wikipedia",
+        "reason": "Learn the instrument's parts and basic sound-making before starting technique drills."
+      },
+      {
+        "resourceId": "violin-video-lab",
+        "reason": "See a teacher demonstrate setup and beginner technique rather than relying on text alone."
+      },
+      {
+        "resourceId": "violin-course-lab",
+        "reason": "Follow a structured sequence and seek in-person feedback for posture and sound."
+      }
+    ],
+    "sections": [
+      {
+        "id": "foundations",
+        "resources": [
+          {
+            "id": "violin-foundation-wikipedia",
+            "title": "Violin",
+            "url": "https://en.wikipedia.org/wiki/Violin",
+            "source": "Wikipedia",
+            "why": "A broad overview of the instrument, parts, history, repertoire, and playing technique.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-foundation-smithsonian",
+            "title": "Violins and their makers",
+            "url": "https://music.si.edu/spotlight/violins",
+            "source": "Smithsonian National Museum of American History",
+            "why": "Museum material connects instrument construction with makers and musical history.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-foundation-suzuki",
+            "title": "Suzuki Association of the Americas",
+            "url": "https://suzukiassociation.org/",
+            "source": "Suzuki Association of the Americas",
+            "why": "Introduces the Suzuki approach and how families can find teacher-supported study.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "resources": [
+          {
+            "id": "violin-book-suzuki",
+            "title": "Suzuki Violin School, Volume 1",
+            "url": "https://www.alfred.com/products/suzuki-violin-school-volume-1-00-0144s",
+            "source": "Shinichi Suzuki / Alfred Music",
+            "why": "A widely used repertoire-based method; works best with a teacher and its accompanying recordings.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-book-essential",
+            "title": "Essential Elements for Strings: Violin",
+            "url": "https://www.halleonard.com/product/868049/essential-elements-for-strings--book-1-with-eei",
+            "source": "Hal Leonard",
+            "why": "A progressive beginner method with exercises and ensemble-oriented material.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-book-allforstrings",
+            "title": "All for Strings: Book 1 — Violin",
+            "url": "https://kjos.com/strings/methods/all-for-strings/book-1.html",
+            "source": "Gerald Anderson and Robert Frost / Kjos",
+            "why": "A progressive method combines early technique, music reading, and ensemble skills.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "youtube",
+        "resources": [
+          {
+            "id": "violin-video-lab",
+            "title": "Violin Lab",
+            "url": "https://www.youtube.com/violinlab",
+            "source": "Violin Lab on YouTube",
+            "why": "Demonstrations break down setup, tone, and technique for adult learners.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-video-inspiration",
+            "title": "Violinspiration",
+            "url": "https://www.youtube.com/@Violinspiration",
+            "source": "Julia's Violin on YouTube",
+            "why": "Beginner-friendly lessons and play-alongs make practice ideas visible.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-video-two-set",
+            "title": "TwoSet Violin",
+            "url": "https://www.youtube.com/@TwoSetViolin",
+            "source": "TwoSet Violin",
+            "why": "Comedy and performance culture offer an engaging view of classical violin life, not a sequenced lesson course.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "podcasts",
+        "resources": [
+          {
+            "id": "violin-podcast-violin",
+            "title": "The Violin Podcast",
+            "url": "https://podcasts.apple.com/us/podcast/violin-podcast/id1501355231",
+            "source": "The Violin Podcast",
+            "why": "Interviews and discussions illuminate musicians' practice, careers, and teaching.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-podcast-strad",
+            "title": "The Strad Podcast",
+            "url": "https://podcasts.apple.com/us/podcast/the-strad-podcast/id1576320404",
+            "source": "The Strad",
+            "why": "Interviews with string players and teachers explore technique, interpretation, instruments, and musicianship.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-podcast-mindfinger",
+            "title": "Mind Over Finger",
+            "url": "https://mindoverfinger.com/podcast/",
+            "source": "Mind Over Finger",
+            "why": "Practice and performance discussions for string players complement instrument-specific lessons.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "open-lectures",
+        "resources": [],
+        "omissionReason": "The strongest beginner violin instruction is sequenced studio or teacher-led learning rather than open university lectures; courses and demonstrations are listed separately."
+      },
+      {
+        "id": "courses",
+        "resources": [
+          {
+            "id": "violin-course-lab",
+            "title": "Violin Lab learning resources",
+            "url": "https://www.violinlab.com/",
+            "source": "Violin Lab",
+            "why": "A structured video curriculum focuses on progressive technique and musical skills.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-course-tonebase",
+            "title": "tonebase Violin",
+            "url": "https://www.tonebase.co/violin",
+            "source": "tonebase",
+            "why": "Masterclasses and courses offer a deeper view of performance and technique; check current access terms.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-course-artistworks",
+            "title": "ArtistWorks violin lessons",
+            "url": "https://artistworks.com/violin-lessons-richard-amoroso",
+            "source": "ArtistWorks",
+            "why": "A teacher-led online program presents sequenced violin instruction and feedback options.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "blogs",
+        "resources": [
+          {
+            "id": "violin-blog-violinist",
+            "title": "Violinist.com",
+            "url": "https://www.violinist.com/",
+            "source": "Violinist.com",
+            "why": "Articles and interviews explore violin practice, performance, and the wider community.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-blog-inspiration",
+            "title": "Violinspiration articles",
+            "url": "https://violinspiration.com/blog/",
+            "source": "Violinspiration",
+            "why": "Practical writing covers beginner technique, repertoire, and regular practice.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-blog-strings",
+            "title": "Strings Magazine",
+            "url": "https://stringsmagazine.com/",
+            "source": "Strings Magazine",
+            "why": "Reporting and features cover bowed instruments, players, and music-making.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "creators",
+        "resources": [
+          {
+            "id": "violin-creator-hahn",
+            "title": "Hilary Hahn",
+            "url": "https://www.deutschegrammophon.com/en/artists/hilaryhahn",
+            "source": "Hilary Hahn / Deutsche Grammophon",
+            "why": "A leading concert violinist whose performances offer close listening and interpretive study.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-creator-raychen",
+            "title": "Ray Chen",
+            "url": "https://www.raychenviolin.com/",
+            "source": "Ray Chen",
+            "why": "A concert violinist who shares performances and approachable insights into musicianship.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-creator-julia",
+            "title": "Julia's Violin",
+            "url": "https://violinspiration.com/about/",
+            "source": "Julia's Violin",
+            "why": "Teacher and creator whose lessons focus on practical progress for adult beginners.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "communities",
+        "resources": [
+          {
+            "id": "violin-community-reddit",
+            "title": "r/violinist",
+            "url": "https://www.reddit.com/r/violinist/",
+            "source": "Reddit",
+            "why": "Players discuss practice, gear, and learning; online advice cannot assess a player's posture or sound.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-community-fiddlerman",
+            "title": "Fiddlerman forum",
+            "url": "https://fiddlerman.com/forum/",
+            "source": "Fiddlerman",
+            "why": "A long-running forum for players to discuss instruments, technique, and music.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-community-violinist",
+            "title": "Violinist.com discussion forums",
+            "url": "https://www.violinist.com/discussion/",
+            "source": "Violinist.com",
+            "why": "Community discussions connect learners and performers around violin study.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "screen",
+        "resources": [
+          {
+            "id": "violin-screen-redviolin",
+            "title": "The Red Violin",
+            "url": "https://www.imdb.com/title/tt0120802/",
+            "source": "IMDb",
+            "why": "A fictional story follows an instrument across time; a cultural entry point, not a history lesson.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-screen-mozart",
+            "title": "Mozart in the Jungle",
+            "url": "https://www.imdb.com/title/tt3502172/",
+            "source": "IMDb",
+            "why": "A fictional television series explores orchestral life and performance culture.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "violin-screen-latequartet",
+            "title": "A Late Quartet",
+            "url": "https://www.imdb.com/title/tt1543887/",
+            "source": "IMDb",
+            "why": "A drama about a string quartet offers context for ensemble playing and musical collaboration.",
+            "verified": "2026-10-03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "painting",
+    "title": "Painting",
+    "aliases": ["visual painting", "learn painting"],
+    "summary": "Explore how painters turn observation, materials, and choices about color and form into images.",
+    "overview": "Painting is the act of placing pigment in a medium onto a surface to create an image. A painter makes choices about what to observe, how to simplify shapes and values, how colors relate, and how the material behaves. Learning therefore combines looking, design, craft, and repeated practice. Different traditions and media solve these problems in different ways; there is no single formula for every painting.",
+    "concepts": [
+      "Observation and simplification",
+      "Shape and composition",
+      "Value and contrast",
+      "Color relationships",
+      "Pigment, medium, and surface",
+      "Revision and practice"
+    ],
+    "sources": [
+      {
+        "title": "National Gallery: Pigments and medium",
+        "url": "https://www.nationalgallery.org.uk/research/publications/studying-raphael/studying-raphael-pigments-and-medium"
+      },
+      {
+        "title": "Wikipedia: Painting",
+        "url": "https://en.wikipedia.org/wiki/Painting"
+      },
+      {
+        "title": "MoMA: What Is Contemporary Art?",
+        "url": "https://www.coursera.org/learn/contemporary-art"
+      }
+    ],
+    "startHere": [
+      {
+        "resourceId": "painting-foundation-nationalgallery",
+        "reason": "Learn how materials and techniques shape the physical act of painting."
+      },
+      {
+        "resourceId": "painting-book-gurney",
+        "reason": "Explore color and light through a working painter's illustrated explanations."
+      },
+      {
+        "resourceId": "painting-course-moma",
+        "reason": "Use a structured museum course to connect individual images with artistic context."
+      }
+    ],
+    "sections": [
+      {
+        "id": "foundations",
+        "resources": [
+          {
+            "id": "painting-foundation-wikipedia",
+            "title": "Painting",
+            "url": "https://en.wikipedia.org/wiki/Painting",
+            "source": "Wikipedia",
+            "why": "An introductory map of painting media, history, and practice with references for further research.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-foundation-nationalgallery",
+            "title": "Pigments and medium: studying Raphael",
+            "url": "https://www.nationalgallery.org.uk/research/publications/studying-raphael/studying-raphael-pigments-and-medium",
+            "source": "The National Gallery, London",
+            "why": "A concrete museum example shows how pigments, oil, and layers make up a finished painting.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-foundation-met",
+            "title": "How to do visual analysis",
+            "url": "https://smarthistory.org/visual-analysis/",
+            "source": "Smarthistory",
+            "why": "An art-history introduction teaches close observation of composition, form, color, and materials.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "books",
+        "resources": [
+          {
+            "id": "painting-book-gurney",
+            "title": "Color and Light: A Guide for the Realist Painter",
+            "url": "https://www.simonandschuster.com/books/Color-and-Light/James-Gurney/James-Gurney-Art/9780740797712",
+            "source": "James Gurney / Andrews McMeel Publishing",
+            "why": "An illustrated guide connects color and lighting effects with practical painting decisions.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-book-artspirit",
+            "title": "The Art Spirit",
+            "url": "https://store.doverpublications.com/products/9780486826738",
+            "source": "Robert Henri / Dover Publications",
+            "why": "A collection of reflections on artistic practice and attention, rather than a step-by-step technique manual.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-book-imaginative",
+            "title": "Imaginative Realism",
+            "url": "https://publishing.andrewsmcmeel.com/book/imaginative-realism/",
+            "source": "James Gurney / Andrews McMeel Publishing",
+            "why": "A practical guide to making invented scenes convincing through observation, references, composition, and light.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "youtube",
+        "resources": [
+          {
+            "id": "painting-video-bobross",
+            "title": "The Joy of Painting",
+            "url": "https://www.youtube.com/channel/UCxcnsr1R5Ge_fbTu5ajt8DQ",
+            "source": "Bob Ross",
+            "why": "Full demonstrations make wet-on-wet landscape painting approachable and observable.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-video-gurney",
+            "title": "James Gurney painting demonstrations",
+            "url": "https://www.youtube.com/user/JamesGurney",
+            "source": "James Gurney",
+            "why": "Field sketches and demonstrations show how an experienced painter observes light and color.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-video-drawmixpaint",
+            "title": "Draw Mix Paint",
+            "url": "https://www.youtube.com/user/drawmixpaint",
+            "source": "Mark Carder",
+            "why": "Lessons break oil painting into concrete decisions about drawing, matching color, and mixing.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "podcasts",
+        "resources": [
+          {
+            "id": "painting-podcast-savvy",
+            "title": "Savvy Painter Podcast",
+            "url": "https://podcasts.apple.com/us/podcast/savvy-painter-podcast-with-antrese-wood/id834629128",
+            "source": "Savvy Painter",
+            "why": "Working artists discuss studio practice, creative process, and the realities of painting.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-podcast-artjuice",
+            "title": "Art Juice",
+            "url": "https://podcasts.apple.com/us/podcast/art-juice-a-podcast-for-artists-creatives-and-art-lovers/id1451530001",
+            "source": "Art Juice",
+            "why": "Artists talk through materials, making, and sustaining a creative practice.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-podcast-artcurious",
+            "title": "ArtCurious",
+            "url": "https://www.artcuriouspodcast.com/",
+            "source": "ArtCurious",
+            "why": "Art-history stories give context for paintings and the people who made them.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "open-lectures",
+        "resources": [],
+        "omissionReason": "Open university lectures rarely teach hands-on studio technique with the feedback and materials demonstrations a beginner needs; structured practice courses and museum learning are listed instead."
+      },
+      {
+        "id": "courses",
+        "resources": [
+          {
+            "id": "painting-course-moma",
+            "title": "What Is Contemporary Art?",
+            "url": "https://www.coursera.org/learn/contemporary-art",
+            "source": "The Museum of Modern Art / Coursera",
+            "why": "A museum-designed course helps learners interpret contemporary works and artistic choices.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-course-bobross",
+            "title": "Find a Bob Ross painting class",
+            "url": "https://www.bobross.com/take-a-bob-ross-class/",
+            "source": "Bob Ross Inc.",
+            "why": "A directory of instructor-led classes offers a hands-on counterpart to the televised demonstrations.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-course-kline",
+            "title": "Kline Creative: classes and tutorials",
+            "url": "https://www.klineacademy.com/",
+            "source": "Kline Creative",
+            "why": "Studio courses and demonstrations cover traditional drawing and painting techniques; check the current class format.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "blogs",
+        "resources": [
+          {
+            "id": "painting-blog-gurney",
+            "title": "Gurney Journey",
+            "url": "https://gurneyjourney.blogspot.com/",
+            "source": "James Gurney",
+            "why": "A working artist shares detailed observations about painting, color, and visual storytelling.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-blog-lines",
+            "title": "Lines and Colors",
+            "url": "https://linesandcolors.com/",
+            "source": "Lines and Colors",
+            "why": "Essays introduce artists, painting traditions, and visual ideas across many periods.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-blog-artisfun",
+            "title": "Art is Fun",
+            "url": "https://www.art-is-fun.com/",
+            "source": "Thaneeya McArdle",
+            "why": "An artist's approachable guides explain art materials, styles, and practical drawing and painting ideas.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "creators",
+        "resources": [
+          {
+            "id": "painting-creator-bobross",
+            "title": "Bob Ross",
+            "url": "https://www.bobross.com/",
+            "source": "Bob Ross Inc.",
+            "why": "The painter's legacy is an accessible way into landscape demonstrations and a distinctive teaching style.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-creator-gurney",
+            "title": "James Gurney",
+            "url": "https://jamesgurney.com/",
+            "source": "James Gurney",
+            "why": "Illustrator and author shares sustained, practical study of observation and painting.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-creator-artsherpa",
+            "title": "The Art Sherpa",
+            "url": "https://theartsherpa.com/",
+            "source": "The Art Sherpa",
+            "why": "An instructor known for step-by-step painting projects and beginner-friendly guidance.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "communities",
+        "resources": [
+          {
+            "id": "painting-community-reddit",
+            "title": "r/painting",
+            "url": "https://www.reddit.com/r/painting/",
+            "source": "Reddit",
+            "why": "Painters share work and discuss materials; feedback is informal and varies in quality.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-community-wetcanvas",
+            "title": "WetCanvas",
+            "url": "https://www.wetcanvas.com/",
+            "source": "WetCanvas",
+            "why": "A long-running online art community with forums for media, critique, and technique.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-community-artprof",
+            "title": "Art Prof community",
+            "url": "https://artprof.org/community/join-us-on-discord/",
+            "source": "Art Prof",
+            "why": "An art education community for sharing work and discussing creative practice.",
+            "verified": "2026-10-03"
+          }
+        ]
+      },
+      {
+        "id": "screen",
+        "resources": [
+          {
+            "id": "painting-screen-lovingvincent",
+            "title": "Loving Vincent",
+            "url": "https://www.imdb.com/title/tt3262342/",
+            "source": "IMDb",
+            "why": "An animated feature painted in oil offers a vivid demonstration of painting as a production process, not a technique course.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-screen-frida",
+            "title": "Frida",
+            "url": "https://www.imdb.com/title/tt0120679/",
+            "source": "IMDb",
+            "why": "A dramatized portrait of Frida Kahlo provides cultural context for an artist's life and work.",
+            "verified": "2026-10-03"
+          },
+          {
+            "id": "painting-screen-picasso",
+            "title": "The Mystery of Picasso",
+            "url": "https://www.imdb.com/title/tt0049513/",
+            "source": "IMDb",
+            "why": "A documentary films Picasso painting, offering a rare view of mark-making as it unfolds.",
+            "verified": "2026-10-03"
+          }
+        ]
+      }
+    ]
+  }
+]

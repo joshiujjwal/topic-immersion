@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Find a clear starting point and a thoughtful trail of resources for a subject you want to understand."
+    />
+    <meta name="theme-color" content="#f5f3ee" />
+    <title>Topic Immersion — learn a subject from the ground up</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Topic Immersion home"
+        >Topic Immersion<span>.</span></a
+      >
+      <span class="header-note">A guide to learning deeply</span>
+    </header>
+    <main id="main-content">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Curiosity, with a place to begin</p>
+        <h1 id="page-title">Learn a subject from the ground up.</h1>
+        <p class="hero-copy">
+          Start with the ideas that matter. Then follow a considered trail
+          through books, lectures, films, and the people shaping a subject.
+        </p>
+        <label class="search-label" for="topic-query">Search topics</label>
+        <form id="topic-search" class="search-form" role="search">
+          <input
+            id="topic-query"
+            name="q"
+            type="search"
+            placeholder="Try sales, strategy, violin…"
+            autocomplete="off"
+            disabled
+          />
+          <button type="submit" disabled>Explore</button>
+        </form>
+      </section>
+      <p id="loading-message" class="catalog-loading" role="status">
+        Loading the curated collection…
+      </p>
+      <div
+        id="announcement"
+        class="visually-hidden"
+        role="status"
+        aria-live="polite"
+      ></div>
+      <section
+        id="topic-choices"
+        class="topic-choices"
+        aria-labelledby="chooser-title"
+        hidden
+      >
+        <div class="section-heading">
+          <p class="eyebrow">The first collection</p>
+          <h2 id="chooser-title">Choose a subject</h2>
+        </div>
+        <div id="topic-list" class="topic-grid"></div>
+      </section>
+      <section id="topic-view" class="topic-view"></section>
+      <section
+        id="search-message"
+        class="message-panel"
+        hidden
+        aria-live="polite"
+      ></section>
+      <section
+        id="load-error"
+        class="message-panel error-panel"
+        hidden
+        role="alert"
+      ></section>
+    </main>
+    <footer class="site-footer">
+      <p>
+        Thoughtful starting points. Your next rabbit hole is yours to choose.
+      </p>
+      <p class="external-note">
+        Editorial dates are not availability guarantees. External resources may
+        require an account or payment; streaming catalogs vary by region.
+      </p>
+      <a href="https://github.com/joshiujjwal/topic-immersion"
+        >About this project</a
+      >
+    </footer>
+    <noscript>
+      <style>
+        #loading-message {
+          display: none;
+        }
+      </style>
+      <p class="noscript-message">
+        This guide needs JavaScript to load its curated topic collection. Enable
+        it and refresh to explore.
+      </p>
+    </noscript>
+  </body>
+</html>

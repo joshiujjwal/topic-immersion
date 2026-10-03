@@ -1,0 +1,25 @@
+{
+  "name": "topic-immersion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "preview:test": "node tests/helpers/pages-server.mjs",
+    "test": "node --test",
+    "test:e2e": "playwright test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run format:check && npm run lint && npm test && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "eslint": "^9.39.2",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9"
+  }
+}
