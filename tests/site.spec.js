@@ -1,5 +1,48 @@
 import { expect, test } from '@playwright/test';
 
+test('should keep the desktop collection within one screen and every guide under 3400 pixels', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./');
+  await expect(page.locator('.topic-card')).toHaveCount(5);
+  expect(
+    await page.evaluate(() => document.documentElement.scrollHeight),
+  ).toBeLessThanOrEqual(900);
+
+  for (const title of [
+    'Sales',
+    'Business Strategy',
+    'Large Language Models',
+    'Violin',
+    'Painting',
+  ]) {
+    await page.getByRole('button', { name: `Explore ${title}` }).click();
+    expect(
+      await page.evaluate(() => document.documentElement.scrollHeight),
+      `${title} should need at least 35% less scrolling than the original layout`,
+    ).toBeLessThanOrEqual(3400);
+    await expect(page.locator('.resource-card')).toHaveCount(
+      title === 'Business Strategy' ? 30 : 27,
+    );
+    await page.getByRole('button', { name: '← All topics' }).click();
+  }
+});
+
+test('should keep mobile topic choices under 1250 pixels without hiding their descriptions', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.goto('./');
+  await expect(page.locator('.topic-card')).toHaveCount(5);
+  expect(
+    await page.evaluate(() => document.documentElement.scrollHeight),
+  ).toBeLessThanOrEqual(1250);
+  for (const description of await page.locator('.topic-card-summary').all()) {
+    await expect(description).toBeVisible();
+  }
+});
+
 test('the home page offers a labeled search and the five curated topic choices', async ({
   page,
 }) => {

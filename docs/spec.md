@@ -40,6 +40,8 @@ Useful learning material is scattered across books, videos, classes, essays, pod
 - [ ] No framework, backend, CMS, runtime account, data collection, or external search dependency.
 - [ ] Semantic HTML, keyboard operation, visible focus, announced state changes, and readable contrast.
 - [ ] Responsive one-page layout with no horizontal overflow at mobile widths or text zoom.
+- [ ] Compact newspaper-style typography and ruled columns rather than oversized boxed cards. At 1440×900, the chooser fits within one screen and complete guides stay below 3400px in height. At 375×812, the chooser stays below 1250px; all topic descriptions remain visible.
+- [ ] Keep complete recommendation text visible, with no nested scroll areas. Reflow category columns to the available width and text size.
 - [ ] System typography and lightweight assets; no required third-party fonts, tracking scripts, or media embeds.
 - [ ] CI tests the static site without relying on live third-party resource availability.
 - [ ] Publishing uploads only `src/` after required quality checks pass.

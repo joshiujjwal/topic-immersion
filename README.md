@@ -33,6 +33,15 @@ npm run check
 
 Sales, Business Strategy, Large Language Models, Violin, and Painting. Search covers those curated subjects and their aliases; it does not generate or fetch arbitrary-topic recommendations.
 
+## Reading layout
+
+The newspaper-inspired layout uses a compact serif masthead, ruled sections, and
+three side-by-side category columns on wide screens. The primer and starting path
+sit alongside each other; narrow screens reflow into a single reading column.
+All recommendations, annotations, and review dates remain visible, without nested
+scroll areas or truncated text. The desktop topic chooser fits within a 900px-tall
+viewport at 1440px wide.
+
 ## Project structure
 
 ```text
@@ -80,6 +89,6 @@ and provider-link checks are recorded in the development session, outside the Pa
 artifact. A human editorial and assistive-technology review is still recommended;
 automated checks are not a substitute for either.
 
-The launch checks include six catalog tests and sixteen Chromium browser tests,
-including doubled text size. The deployed HTML, styles, modules, and catalog were
+The current checks include six catalog tests and eighteen Chromium browser tests,
+including doubled text size and desktop/mobile page-height budgets. The deployed HTML, styles, modules, and catalog were
 verified under the real project URL, and the live catalog matched the local file.

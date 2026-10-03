@@ -35,6 +35,7 @@ Each phase is an evidence gate: passing checks and human review are required bef
 - [x] Test all dependencies under `/topic-immersion/`.
 - [x] Verify malformed catalog, fetch errors, unsafe URLs, and retry behavior.
 - [x] Review keyboard path, focus, contrast, and mobile screenshots.
+- [x] Replace oversized cards with a compact newspaper layout; prove reduced desktop/mobile page heights without removing content.
 - [ ] Obtain human editorial and assistive-technology review before a formal v1 release.
 
 ## Phase 4: Ship
@@ -58,3 +59,4 @@ Each phase is an evidence gate: passing checks and human review are required bef
 - Provider pages can return HTTP 200 while pointing to the wrong book or video. Check the title and destination after redirects.
 - The browser fixture must use a fresh isolated copy of `src/` so a reused server cannot test stale content.
 - Subtle metadata needs the same 4.5:1 contrast as other small text; keep the browser contrast regression test.
+- Measure full-page height when reducing scroll. Use rem-based column minimums that collapse at enlarged text sizes, and do not leave an empty topic-view spacer on the chooser.
